@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap'); 
 
 * {
     margin: 0;
@@ -10,191 +11,118 @@
     color: #333;
     
 }
-body {
-    
-    height: 3162px;
-    width: 1366px;
-    
-    
-    margin: 0 auto;
-}
-
-
-
-.head {
-    padding: 20px 0;
-    display: flex;
-    
-}
-
-.head > * {
-    flex-shrink: 0;
-}
-
-.head .logo {
-    height: 60px;
-    width: 200px;
+button, p, .title {
     background-color: #e2e2e2;
     border: 0;
-    border-radius: 8px;
-    margin-left: 83px;
-
+    border-radius: 8px;    
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-.head .menu {
-    width: 820px;
-    height: 34px;
-    background-color: #e2e2e2;
-    border: 0;
-    border-radius: 8px;
-    margin: auto 30px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.head button {
-    width: 120px;
-    height: 42px;
-    background-color: #e2e2e2;
-    border: 0;
-    border-radius: 8px;
-    margin: auto 0;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    margin-right: 83px;
-}
-
-.main1 {
-    width: 1366px;
-    height: 680px;
-    background-color: #f1f1f1;
-    display: flex;
-    padding: 80px 83px;
-    margin-left: -1px;
-    
-}
-.main1 > * {
-    flex-shrink: 0;
-}
-
-.main1 .content {
-    width: 585px;
-    height: 267px;
-    background-color: #e2e2e2;
-    border: 0;
-    border-radius: 8px;
-
-    display: flex;
-    flex-shrink: 0;
-    align-items: center;
-    justify-content: center;
-
-    margin: auto 0;
-}
-
-.main1 .img {
-    width: 585px;
-    height: 520px;
-    background-color: #e2e2e2;
-    border: 0;
-    border-radius: 8px;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    margin-left: 30px;
-
-
-}
-
-.main2 {
-    padding: 80px 83px;
-}
-.main2 >* {
-    flex-shrink: 0;
-}
-
 
 .title {
     width: 600px;
     height: 80px;
-    background-color: #e2e2e2;
-    border: 0;
-    border-radius: 8px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
     margin: 0 auto;
     margin-bottom: 40px;
+    font-family: 'Lora', sans-serif;
 }
 
-.title > * {
-    flex-shrink: 0;
+#logo {
+    height: 60px;
+    width: 200px;
 }
 
+#menu {
+    width: 820px;
+    height: 34px;
+}
 
-.main2 section {
+.head button {
+    width: 120px;
+    height: 42px;
+}
+
+.head {
     display: flex;
-    flex-shrink: 0;
-    
-}
-.down {
-    margin-top: 30px;
-}
-
-.it {
-    width: 380px;
-    height: 420px;
-    background-color: #e2e2e2;
-    border: 0;
-    border-radius: 8px;
-    margin-right: 30px;
-
-    display: flex;
-    flex-shrink: 0;
     align-items: center;
     justify-content: center;
+    gap: 30px;
+    padding: 20px 0;
 }
 
-
-
-.main3 {
-    width: 1366px;
-    height: 580px;
-
-    background-color: #f1f1f1;
-    padding: 80px 83px;
+#content {
+    width: 585px;
+    height: 267px;
 }
 
-.main3 section{
+#img {    
+    width: 585px;
+    height: 520px;
+}
+
+.main {
     display: flex;
-    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 80px 0;
 }
 
-.main3 section p{
+#s1 {
+    background-color: #f1f1f1;
+}
+
+#m2 .it {
+    width: 380px;
+    height: 420px;
+}
+
+#m2 {
+    padding: 80px 0;
+}
+
+#s2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#m3 {
+    background-color: #f1f1f1;
+    padding: 80px 0;
+}
+
+#s3 {
+    display: flex;
+    gap: 30px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#s3 .it {
     width: 216px;
     height: 300px;
 }
 
-.main4 {
-    padding: 80px 83px;
+#m4 {
+    padding: 80px 0;
 }
 
-.main4 section{
+#s4 {
     display: flex;
+    gap: 30px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.main4 section p {
+#s4 .it {
     width: 277.5px;
     height: 300px;
 }
