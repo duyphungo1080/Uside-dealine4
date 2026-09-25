@@ -86,7 +86,6 @@ button, p, .title {
     margin: 0 auto;
 }
 
-/* Bỏ width cứng 380px để Grid tự co giãn item theo cột */
 #m2 .it {
     width: 100%;
     height: 420px;
