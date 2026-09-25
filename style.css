@@ -103,10 +103,9 @@ button, p, .title {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
-    justify-content: center; /* Căn giữa các item */
+    justify-content: center; 
 }
 
-/* Cho các item co giãn đều trong Flexbox */
 #s3 .it {
     flex: 1;
     height: 300px;
